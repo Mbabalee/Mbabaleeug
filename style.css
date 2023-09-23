@@ -86,15 +86,27 @@ h1{
   
 .intro2{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin : 2px;
   align-items: center;
   flex-direction: column;
   
-  height:290px;
+  height:860px;
   background: #fff ;
   border-radius: 15px
 }
+
+#ps{
+  color: #000;
+  position: relative;
+  bottom: 40px ;
+  
+}
+
+strong{
+  color: red ;
+}
+
 .box img{
   transition: all 100ms ease-in;
   width : 230px;
@@ -104,8 +116,16 @@ h1{
   border-radius: 15px;
 }
 
+.intro2 h1{
+  background: none;
+  color: red ;
+  text-decoration: underline
+}
+
 #hirebutton{
   padding: 0 20px 0;
+  position: relative;
+  bottom: 20px;
   border-radius: 17px;
   font-size: 27px;
   border : 0;

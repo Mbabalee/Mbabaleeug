@@ -79,6 +79,9 @@ h1{
   cursor: pointer;
   padding: 0
 }
+#imk{
+  width: 180px;
+}
 
 #dots{
   height: 30px
@@ -90,8 +93,6 @@ h1{
   margin : 2px;
   align-items: center;
   flex-direction: column;
-  
-  height:860px;
   background: #fff ;
   border-radius: 15px
 }
@@ -99,7 +100,7 @@ h1{
 #ps{
   color: #000;
   position: relative;
-  bottom: 40px ;
+  bottom: 30px ;
   
 }
 

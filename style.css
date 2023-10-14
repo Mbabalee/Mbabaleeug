@@ -16,6 +16,11 @@
   left: 1190px;
 }
 
+	#imk{
+  width: 180px;
+	}
+	
+
 div{border: 1px solid rd}
 .main{
   display: flex;

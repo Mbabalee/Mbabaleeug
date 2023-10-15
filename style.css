@@ -4,9 +4,16 @@
     font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   font-weight: bold;
+  font-size: 14.5px;
   height: 1600px;
   margin: 0
-  }
+}
+
+#xy{
+  width: 150px;
+  position: relative;
+  right: 5px
+}
 
 .h2{
   position: absolute;
@@ -15,11 +22,6 @@
   white-space: nowrap;
   left: 1190px;
 }
-
-	#imk{
-  width: 180px;
-	}
-	
 
 div{border: 1px solid rd}
 .main{
@@ -47,6 +49,7 @@ div{border: 1px solid rd}
 
 .intro h1{
 }
+
  
 #sidenav img{}
 
@@ -57,10 +60,14 @@ div{border: 1px solid rd}
 		font-weight: 300;
 }
 
+#te{color: #E0E1F1;
+  font-size: 19px
+}
+
 h1{
   text-align: center ;
   color: #fff;
-  background: red;
+  background: #33343A;
   margin: 30px;
   border-radius: 15px;
 }
@@ -73,8 +80,8 @@ h1{
   background: red 
 }
 .intro0{height:70px;
-  background: red ;
-  justify-content: flex-end ;
+  background: #33343A ;
+  justify-content: space-between ;
   display: flex;
   align-items: center 
 }
@@ -96,21 +103,32 @@ h1{
   display: flex;
   justify-content: space-around;
   margin : 2px;
+  
   align-items: center;
   flex-direction: column;
-  background: #fff ;
+  background: linear-gradient(180deg,#000,#72737F,#67686E,#767780) ;
   border-radius: 15px
 }
+#tr{
+  color: #fff;
+  font-size: 20px
+}
 
+#te{color: #fff}
+.intro2 li p{color: #E0E1F1 }
 #ps{
-  color: #000;
+  color: #fff;
   position: relative;
   bottom: 30px ;
   
 }
 
+li p{
+  color: #fff
+}
+
 strong{
-  color: red ;
+  color: #fff ;
 }
 
 .box img{
@@ -124,8 +142,8 @@ strong{
 
 .intro2 h1{
   background: none;
-  color: red ;
-  text-decoration: underline
+  color: #E0E1F1 ;
+  text-decoration: 
 }
 
 #hirebutton{
@@ -136,12 +154,12 @@ strong{
   font-size: 27px;
   border : 0;
   color: #fff;
-  background: red;
+  background: #000;
   box-shadow: 0 0 10px #000
 }
 
 img:hover{
-  box-shadow: 0 0 18px red;
+  box-shadow: 0 0 18px #6F7293;
 }
 
 .box{
@@ -159,7 +177,7 @@ img:hover{
   scrollbar-color: none ;
   overflow-x: scroll ;
   padding: 0px;
-  background: #000  ;
+  background: linear-gradient(-180deg,#72737F,#A2A3B2,#67686E,#767780) ;
 }
 
 .container{
@@ -175,7 +193,7 @@ img:hover{
 }
 .container h1{
   text-align: center ;
-  background: red;
+  background: #3A3A3E;
   font-size: 17px;
   padding: 10px;
   white-space: nowrap;
